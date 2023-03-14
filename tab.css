@@ -1,0 +1,49 @@
+html{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(233, 233, 236);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: larger;
+}
+.title{
+    text-align: center;
+    margin: 3rem 0;
+    color: rgb(34, 70, 89);
+}
+section{
+    display: block;
+    margin:0 auto;
+    width: 900px;
+}
+.about-center{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.btn-container{
+    display: flex;/* display: flex+margin:0 => To make each button have no gap to each other*/
+}
+.tab-btn{
+    color: rgb(34, 70, 89);
+    border: none;
+    font-size: 15px;
+    font: inherit;
+    padding: 0.5rem 2.5rem;
+    cursor: pointer;
+    align-items: center;
+    margin: 0;
+}
+.active{
+    background-color: #bac5cdbf;
+}
+.content{
+    padding: 1rem 2rem;
+    color:  rgb(34, 70, 89);
+    text-align: justify;
+    display: none;
+}
+.active{
+    display: block;
+}
+.article-title{
+    color: rgb(34, 70, 89);
+}
